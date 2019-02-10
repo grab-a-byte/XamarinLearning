@@ -153,6 +153,10 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TipCalcMvvmCrossForms.UI\TipCalcMvvmCrossForms.UI.csproj">
+      <Project>{00d0f5ca-f0b1-4ff2-a56b-604d5161d0e4}</Project>
+      <Name>TipCalcMvvmCrossForms.UI</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TipCalcMvvmCrossForms\TipCalcMvvmCrossForms.csproj">
       <Project>{F5880A9E-B0F1-4B45-8956-6A9587403428}</Project>
       <Name>TipCalcMvvmCrossForms</Name>
