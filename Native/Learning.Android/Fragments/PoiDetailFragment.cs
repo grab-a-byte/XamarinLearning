@@ -44,7 +44,7 @@ namespace Learning.Android.Fragments
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            var view = LayoutInflater.Inflate(Resource.Layout.POIDetailFragment, container, false);
+            var view = inflater.Inflate(Resource.Layout.POIDetailFragment, container, false);
 
             _namedEditText = view.FindViewById<EditText>(Resource.Id.nameEditText);
             _descrEditText = view.FindViewById<EditText>(Resource.Id.descEditText);

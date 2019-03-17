@@ -43,7 +43,10 @@ namespace Learning.Android.ViewAdapters
                 view.FindViewById<TextView>(Resource.Id.addrTextView).Text = poi.Address;
             }
 
-            //view.FindViewById<ImageView>(Resource.Id.poiImageView).SetImageBitmap(GetImageBitmapFromUrl(poi.Image).Result);
+            if (string.IsNullOrEmpty(poi.Image))
+            {
+                view.FindViewById<ImageView>(Resource.Id.poiImageView).SetImageBitmap(GetImageBitmapFromUrl(poi.Image).Result);
+            }
 
             return view;
         }

@@ -1,70 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-	android:minWidth="25px"
-	android:minHeight="25px"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/poiDetailLayout"
 	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:id="@+id/scrollView1">
-	<LinearLayout
-		android:orientation="vertical"
-		android:layout_height="fill_parent"
-		android:layout_width="fill_parent"
-		android:padding="5dp">
-		<TextView
-			android:text="Name"
-			android:layout_height="fill_parent"
-			android:layout_width="wrap_content" />
-		<EditText
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:id="@+id/nameEditText"
-			android:inputType="textCapWords"
-		/>
-		<TextView
-			android:text="Description"
-			android:layout_height="fill_parent"
-			android:layout_width="wrap_content" />
-		<EditText
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:id="@+id/descEditText"
-			android:inputType="textMultiLine"
-		/>
-		<TextView
-			android:text="Address"
-			android:layout_height="fill_parent"
-			android:layout_width="wrap_content" />
-		<EditText
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:id="@+id/addrEditText"
-			android:inputType="textCapWords"
-		/>
-		<TableLayout
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:minWidth="25px"
-			android:minHeight="25px"
-			android:stretchColumns="*"
-			android:id="@+id/tableLayout">
-			<TableRow>
-				<TextView 
-					android:text="Latitude" 
-					android:layout_column="0"/>
-				<TextView 
-					android:text="Longitude" 
-					android:layout_column="1"/>
-			</TableRow>
-			<TableRow>
-				<EditText 
-					android:layout_column="0"
-					android:id="@+id/editLatitude" />
-				<EditText 
-					android:layout_column="1"
-				android:id="@+id/editLongitude" />
-			</TableRow>
-		</TableLayout>
-	</LinearLayout>
-
-</ScrollView>
-
+	android:layout_height="match_parent"
+	android:minHeight="25px"
+	android:minWidth="25px">
+</FrameLayout>
+	

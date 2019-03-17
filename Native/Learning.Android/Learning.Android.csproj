@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Fragments\PoiDetailFragment.cs" />
+    <Compile Include="Fragments\PoiListFragment.cs" />
     <Compile Include="POIDetailActivity.cs" />
     <Compile Include="PoiListActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -205,6 +206,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\POIDetailFragment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\PoiListFragment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
